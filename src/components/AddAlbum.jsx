@@ -152,7 +152,7 @@ export default function AddAlbum(props) {
           <div>
           {albumCover && <img src={albumCover} alt="image1" className={classes.image} />}</div>
           </div><br/><br/>
-          <Button variant="contained" color="primary" ><Link to="/albums" className={classes.link}>Submit</Link></Button>
+          <Button variant="contained" color="primary" >Submit</Button>
          
           </Paper>  
         </div>
